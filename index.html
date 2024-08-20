@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Check Usernames</title>
+</head>
+<body>
+    <script src="./main.js"></script>
+    <div class="profile">
+        <a href="https://github.com/kamj2">Kamj</a>
+        <img src="./kamj.png" alt="kamj">
+    </div>
+    <div class="check-box"> 
+        <input class="check-input" id="check-input" type="text" maxlength="10" minlength="3" placeholder="Username">
+        <button class="check-button" onclick="checkUsername()">Check Availability</button>
+        <div class="result" id="result">
+            <h3>Instagram <span>pending..</span></h3>
+            <h3>GitHub <span>pending..</span></h3>
+            <h3>TikTok <span>pending..</span></h3>
+            <h5 style="color: rgb(124, 91, 91)" id="message"></h5>
+        </div>
+    </div>
+</body>
+</html>
